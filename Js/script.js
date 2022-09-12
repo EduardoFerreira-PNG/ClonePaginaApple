@@ -8,10 +8,11 @@ buttons.forEach((btn) => {
 
     buttons.forEach((btn) =>
       btn.querySelector(".color").classList.remove("selected")
-    );
+      );
+      
 
     const button = e.target;
-    console.log(button)
+  
 
     const id = button.getAttribute("id");
 
